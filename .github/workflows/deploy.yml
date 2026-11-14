@@ -31,7 +31,7 @@ jobs:
 
       - name: Check HTML title
         run: |
-          grep -qi '<title>' index.htmltml
+          grep -qi '<title>' index.html
 
   deploy:
     needs: check
